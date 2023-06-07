@@ -7,6 +7,8 @@ import GT2 from "../Images/GT2.jpg";
 import GT3rs from "../Images/GT3rs.png";
 import GT2Banner from "../Images/GT2Banner.jpg";
 import BannerCarrera from "../Images/BannerCarrera.png";
+import Taycan from "../Images/Taycan.png";
+import Convertible from "../Images/Convertible.png";
 
 const MainTopCarousel = () => {
   return (
@@ -15,7 +17,7 @@ const MainTopCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-pics"
-            src={GT2Banner}
+            src={Convertible}
             alt="Pic1"
           />
           <Carousel.Caption>
@@ -26,7 +28,11 @@ const MainTopCarousel = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 carousel-pics" src={GT2} alt="Pic 2" />
+          <img
+            className="d-block w-100 carousel-pics"
+            src={Taycan}
+            alt="Pic 2"
+          />
 
           <Carousel.Caption>
             <h3 className="carousel-car-name">Second Car</h3>

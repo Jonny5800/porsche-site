@@ -26,3 +26,6 @@
 .card-body > div {
   color: red;
 }
+.discover-main-page-div {
+  display: flex;
+}
