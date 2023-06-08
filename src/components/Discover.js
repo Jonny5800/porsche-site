@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import DiscoverB from "../Images/DiscoverImages/DiscoverB.png";
+import DiscoveryB from "../Images/DiscoverImages/DiscoveryB.png";
 import DiscoverCayenneBig from "../Images/DiscoverImages/DiscoverCayenneBig.jpeg";
 import DiscoverPhones from "../Images/DiscoverImages/DiscoverPhones.jpg";
 import DiscoverDSmall from "../Images/DiscoverImages/DiscoverDSmall.jpg";
@@ -24,7 +24,7 @@ const Discover = () => {
         </Card>
 
         <Card className="main-discover-cards" style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={DiscoverB} />
+          <Card.Img variant="top" src={DiscoveryB} />
           <Card.Body>
             <div className="main-discover-text-and-icon-div d-flex">
               <div>*icon * </div>

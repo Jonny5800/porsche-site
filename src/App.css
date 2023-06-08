@@ -1,6 +1,9 @@
-/* .App {
-  text-align: center;
-} */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid black;
+}
 .carousel-pics {
   max-height: 90vh;
   padding: 0px 20vw;
@@ -14,18 +17,71 @@
   font-weight: bolder;
 }
 
-.models-top-row {
-  display: flex;
-  /* flex: 1; */
-  justify-content: center;
-  width: 33.333;
+.models-main-div .model-name {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white; /*Only works with - .models-main-div */
+  font-weight: bolder;
 }
+.model-price {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  color: white;
+  font-weight: bolder;
+}
+.models-main-div .model-left-button {
+  color: black;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 50px;
+  left: 14px;
+}
+.models-main-div .model-right-button {
+  border: 1px solid red;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 1px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 50px;
+  left: 185px;
+}
+.models-main-div > .card-body {
+  padding-bottom: 0px;
+}
+.models-container-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+}
+
+@media (max-width: 1200px) {
+  .models-container-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .card-body {
   text-align: center;
 }
-.card-body > div {
-  color: red;
-}
+
 .discover-main-page-div {
   display: flex;
 }
+
+.main-footer-top-bottom-flexer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* display: grid;
+grid-template-columns: repeat(3, 1fr);{} */

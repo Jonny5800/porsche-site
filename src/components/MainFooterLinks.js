@@ -12,8 +12,8 @@ const MainFooterLinks = () => {
           <div className="main-footer-normal-view-div ">
             <h1>This is normal view, not mobile</h1>
 
-            <div className="main-footer-top-bottom-flexer ">
-              <div className="main-footer-top-left-two-div ">
+            <div className="main-footer-top-bottom-flexer d-flex">
+              <div className="main-footer-top-left-two-div d-flex">
                 <div className="main-footer-build-your-porsche-div">
                   <ul>
                     <h4>Build & FInd</h4>
@@ -36,7 +36,7 @@ const MainFooterLinks = () => {
                 </div>
               </div>
 
-              <div className="main-footer-bottom-right-two-div">
+              <div className="main-footer-bottom-right-two-div d-flex">
                 <div className="main-footer-behind-the-scenes-div">
                   <ul>
                     <h4>Behind the scenes</h4>

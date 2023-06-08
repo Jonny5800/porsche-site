@@ -7,6 +7,11 @@ import Finder from "../Images/ShoppingToolsPics/Finder.jpg";
 import Tequipment from "../Images/ShoppingToolsPics/Tequipment.jpg";
 
 const ShoppingTools = () => {
+  // const cardStyle = {
+  //   // width: "18rem",
+  //   flex: 1,
+  //   paddingBottom: 0,
+  // };
   return (
     <div>
       <div className="container">
