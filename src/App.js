@@ -5,6 +5,7 @@ import MainPageModels from "./components/MainPageModels";
 import ShoppingTools from "./components/ShoppingTools";
 import Discover from "./components/Discover";
 import MainFooterLinks from "./components/MainFooterLinks";
+import MainFindReserve from "./components/MainFindReserve";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
       <MainTopCarousel />
       <MainPageModels />
+      <MainFindReserve />
       <ShoppingTools />
       <Discover />
       <MainFooterLinks />

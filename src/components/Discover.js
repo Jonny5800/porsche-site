@@ -1,58 +1,81 @@
-import React from "react";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import DiscoveryB from "../Images/DiscoverImages/DiscoveryB.png";
 import DiscoverCayenneBig from "../Images/DiscoverImages/DiscoverCayenneBig.jpeg";
 import DiscoverPhones from "../Images/DiscoverImages/DiscoverPhones.jpg";
 import DiscoverDSmall from "../Images/DiscoverImages/DiscoverDSmall.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAngleRight,
+  faUpRightFromSquare,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Discover = () => {
+  const cardStyle = {
+    width: "18rem",
+    flex: 1,
+  };
   return (
     <div className="container">
       <h1 className="mb-3 mt-5">Discover</h1>
       <div className="discover-main-page-div">
-        <Card className="main-discover-cards" style={{ width: "18rem" }}>
+        <Card className="main-discover-cards" style={cardStyle}>
           <Card.Img variant="top" src={DiscoverCayenneBig} />
-          <Card.Body>
+          <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
-              <div>*icon * </div>
+              {/* <div>*icon * </div> */}
               <Card.Text className="main-discover-text">
+                <FontAwesomeIcon
+                  icon={faUpRightFromSquare}
+                  style={{ paddingRight: "7px" }}
+                />
                 Discover image subheading
               </Card.Text>
             </div>
           </Card.Body>
         </Card>
 
-        <Card className="main-discover-cards" style={{ width: "18rem" }}>
+        <Card className="main-discover-cards" style={cardStyle}>
           <Card.Img variant="top" src={DiscoveryB} />
-          <Card.Body>
+          <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
-              <div>*icon * </div>
+              {/* <div>*icon * </div> */}
               <Card.Text className="main-discover-text">
+                <FontAwesomeIcon
+                  icon={faAngleRight}
+                  style={{ paddingRight: "7px" }}
+                />
                 Discover image subheading
               </Card.Text>
             </div>
           </Card.Body>
         </Card>
 
-        <Card className="main-discover-cards" style={{ width: "18rem" }}>
+        <Card className="main-discover-cards" style={cardStyle}>
           <Card.Img variant="top" src={DiscoverPhones} />
-          <Card.Body>
+          <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
-              <div>*icon * </div>
+              {/* <div>*icon * </div> */}
               <Card.Text className="main-discover-text">
+                <FontAwesomeIcon
+                  icon={faAngleRight}
+                  style={{ paddingRight: "7px" }}
+                />
                 Discover image subheading
               </Card.Text>
             </div>
           </Card.Body>
         </Card>
 
-        <Card className="main-discover-cards" style={{ width: "18rem" }}>
+        <Card className="main-discover-cards" style={cardStyle}>
           <Card.Img variant="top" src={DiscoverDSmall} />
-          <Card.Body>
+          <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
-              <div>*icon * </div>
+              {/* <div>*icon * </div> */}
               <Card.Text className="main-discover-text">
+                <FontAwesomeIcon
+                  icon={faAngleRight}
+                  style={{ paddingRight: "7px" }}
+                />
                 Discover image subheading
               </Card.Text>
             </div>

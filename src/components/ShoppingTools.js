@@ -1,68 +1,72 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import Compare from "../Images/ShoppingToolsPics/Cpmpare.webp";
-import Finance from "../Images/ShoppingToolsPics/Finance.jpg";
-import Finder from "../Images/ShoppingToolsPics/Finder.jpg";
-import Tequipment from "../Images/ShoppingToolsPics/Tequipment.jpg";
+import TequipmentOne from "../Images/ShoppingToolsPics/TequipmentOne.jpg";
+import FinanceCropped from "../Images/ShoppingToolsPics/FinanceCropped.jpg";
+import twoCarsOne from "../Images/ShoppingToolsPics/twoCarsOne.jpg";
+import UnderGreyCover from "../Images/ShoppingToolsPics/UnderGreyCover.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAngleRight,
+  faUpRightFromSquare,
+} from "@fortawesome/free-solid-svg-icons";
 
 const ShoppingTools = () => {
-  // const cardStyle = {
-  //   // width: "18rem",
-  //   flex: 1,
-  //   paddingBottom: 0,
-  // };
+  const cardStyle = {
+    width: "18rem",
+    padding: "0px",
+    flex: 1,
+    border: "transparent",
+  };
+  const iconStyle = {
+    paddingRight: "10px",
+    color: "red",
+  };
   return (
     <div>
-      <div className="container">
-        <h1>Shopping Tools</h1>
-        <div className="shipping-tools-div d-flex">
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={Compare} />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
+      <div className="container shopping-container">
+        <h1 className="mb-4">Shopping Tools</h1>
+        <div className="shopping-tools-div d-flex">
+          <Card style={cardStyle}>
+            <Card.Img variant="top" src={twoCarsOne} />
+            {/* <Card.Body> */}
+            <Card.Title className="main-shopping-card-title">
+              <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
+              Compare
+            </Card.Title>
+            {/* </Card.Body> */}
           </Card>
 
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={Finance} />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
+          <Card style={cardStyle}>
+            <Card.Img variant="top" src={FinanceCropped} />
+
+            {/* <Card.Body> */}
+            <Card.Title className="main-shopping-card-title">
+              <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
+              Financial Services
+            </Card.Title>
+            {/* </Card.Body> */}
           </Card>
 
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={Finder} />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
+          <Card style={cardStyle}>
+            <Card.Img variant="top" src={UnderGreyCover} />
+            {/* <Card.Body> */}
+            <Card.Title className="main-shopping-card-title">
+              {" "}
+              <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
+              Porsche Finder
+            </Card.Title>
+            {/* </Card.Body> */}
           </Card>
 
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={Tequipment} />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
+          <Card style={cardStyle} id="main-shopping-tequipment-card">
+            <Card.Img variant="top" src={TequipmentOne} />
+            {/* <Card.Body> */}
+            <Card.Title className="main-shopping-card-title">
+              {" "}
+              <FontAwesomeIcon style={iconStyle} icon={faUpRightFromSquare} />
+              Tequipment
+            </Card.Title>
+            {/* </Card.Body> */}
           </Card>
         </div>
       </div>
