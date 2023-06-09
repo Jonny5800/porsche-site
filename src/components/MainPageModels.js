@@ -26,7 +26,7 @@ const MainPageModels = () => {
   };
 
   return (
-    <div className="models-main-div">
+    <div className="models-main-div mb-5">
       <div className="container">
         <h1>Models</h1>
       </div>

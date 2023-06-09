@@ -43,6 +43,7 @@
   position: absolute;
   bottom: 20px;
   left: 14px;
+  transition: 0.3s ease-in-out;
 }
 .models-main-div .model-right-button {
   border: 1px solid red;
@@ -54,7 +55,20 @@
   position: absolute;
   bottom: 20px;
   left: 185px;
+  transition: 0.3s ease-in-out;
 }
+
+.models-main-div .model-left-button:hover {
+  background-color: red;
+  color: white;
+  border: transparent;
+}
+.models-main-div .model-right-button:hover {
+  color: red;
+  background-color: transparent;
+  border: 1px solid red;
+}
+
 .models-main-div > .card-body {
   padding-bottom: 0px;
 }
