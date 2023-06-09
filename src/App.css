@@ -124,8 +124,29 @@
 
 .main-footer-top-bottom-flexer {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
 }
+.main-footer-top-left-two-div {
+  display: flex;
+  /* justify-content: space-between; */
+  color: red;
+  /* margin: 0 auto; */
+  /* flex: 1; */
+}
+.main-footer-bottom-right-two-div {
+  color: rebeccapurple;
+  display: flex;
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+}
+.footer-column {
+  /* margin: 0 auto; */
+  /* flex: 1; */
+}
+/* .top-two {
+}
+.bot-two {
+} */
 
 /* display: grid;
 grid-template-columns: repeat(3, 1fr);{} */

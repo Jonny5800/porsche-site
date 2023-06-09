@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const MainFooterLinks = () => {
   const [mobileView, setMobileView] = useState(false);
@@ -12,9 +14,9 @@ const MainFooterLinks = () => {
           <div className="main-footer-normal-view-div ">
             <h1>This is normal view, not mobile</h1>
 
-            <div className="main-footer-top-bottom-flexer d-flex">
-              <div className="main-footer-top-left-two-div d-flex">
-                <div className="main-footer-build-your-porsche-div">
+            <div className="container">
+              <Row md={4}>
+                <Col xs={6}>
                   <ul>
                     <h4>Build & FInd</h4>
                     <li>Build your Porsche</li>
@@ -22,9 +24,9 @@ const MainFooterLinks = () => {
                     <li>Find a Porsche</li>
                     <li>Find a Porsche Centre</li>
                   </ul>
-                </div>
-
-                <div className="main-footer-online-services-div">
+                </Col>
+                <Col>
+                  {" "}
                   <ul>
                     <h4>Online Services</h4>
                     <li>Porsche Financial Services</li>
@@ -33,11 +35,9 @@ const MainFooterLinks = () => {
                     <li>Porsche Insurance</li>
                     <li>Porsche Online Shop</li>
                   </ul>
-                </div>
-              </div>
-
-              <div className="main-footer-bottom-right-two-div d-flex">
-                <div className="main-footer-behind-the-scenes-div">
+                </Col>
+                <Col>
+                  {" "}
                   <ul>
                     <h4>Behind the scenes</h4>
                     <li>Passion Motorsports</li>
@@ -45,8 +45,8 @@ const MainFooterLinks = () => {
                     <li>Porsche Classic</li>
                     <li>Visit Porsche Museum</li>
                   </ul>
-                </div>
-                <div className="main-footer-porsche-company-div">
+                </Col>
+                <Col>
                   <ul>
                     <h4>Porsche Company</h4>
                     <li>Latest News</li>
@@ -56,8 +56,8 @@ const MainFooterLinks = () => {
                     <li>Contact & Information</li>
                     <li>Christophorus - The Porsche Magazine</li>
                   </ul>
-                </div>
-              </div>
+                </Col>
+              </Row>
             </div>
           </div>
         )}
