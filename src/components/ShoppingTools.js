@@ -21,13 +21,17 @@ const ShoppingTools = () => {
     paddingRight: "10px",
     color: "red",
   };
+  const imageStyle = {
+    height: "100%",
+    borderRadius: "0px",
+  };
   return (
     <div>
       <div className="container shopping-container">
         <h1 className="mb-4">Shopping Tools</h1>
         <div className="shopping-tools-div d-flex">
           <Card style={cardStyle}>
-            <Card.Img variant="top" src={twoCarsOne} />
+            <Card.Img variant="top" style={imageStyle} src={twoCarsOne} />
             {/* <Card.Body> */}
             <Card.Title className="main-shopping-card-title">
               <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
@@ -37,7 +41,7 @@ const ShoppingTools = () => {
           </Card>
 
           <Card style={cardStyle}>
-            <Card.Img variant="top" src={FinanceCropped} />
+            <Card.Img variant="top" style={imageStyle} src={FinanceCropped} />
 
             {/* <Card.Body> */}
             <Card.Title className="main-shopping-card-title">
@@ -48,7 +52,7 @@ const ShoppingTools = () => {
           </Card>
 
           <Card style={cardStyle}>
-            <Card.Img variant="top" src={UnderGreyCover} />
+            <Card.Img variant="top" style={imageStyle} src={UnderGreyCover} />
             {/* <Card.Body> */}
             <Card.Title className="main-shopping-card-title">
               {" "}
@@ -59,7 +63,7 @@ const ShoppingTools = () => {
           </Card>
 
           <Card style={cardStyle} id="main-shopping-tequipment-card">
-            <Card.Img variant="top" src={TequipmentOne} />
+            <Card.Img variant="top" style={imageStyle} src={TequipmentOne} />
             {/* <Card.Body> */}
             <Card.Title className="main-shopping-card-title">
               {" "}

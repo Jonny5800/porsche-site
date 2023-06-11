@@ -7,6 +7,14 @@
 .card-body {
   text-align: center;
 }
+.main-carousel-container,
+.carousel-item {
+  height: 60vh;
+}
+.carousel-inner {
+  height: 60vh;
+}
+/* ******************************** */
 .carousel-pics {
   max-height: 90vh;
   padding: 0px 20vw;

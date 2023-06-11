@@ -17,12 +17,12 @@ const MainPageModels = () => {
     flex: 1,
     paddingBottom: 0,
     border: "transparent",
-    borderRadius: "0px",
   };
 
   const imageStyle = {
     objectFit: "cover",
     height: "100%",
+    borderRadius: "0px",
   };
 
   return (

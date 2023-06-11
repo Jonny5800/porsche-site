@@ -13,7 +13,7 @@ import Convertible from "../Images/Convertible.png";
 const MainTopCarousel = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container main-carousel-container">
         <Carousel variant="dark">
           <Carousel.Item>
             <img

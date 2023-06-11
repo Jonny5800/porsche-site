@@ -14,12 +14,16 @@ const Discover = () => {
     width: "18rem",
     flex: 1,
   };
+  const imageStyle = {
+    height: "100%",
+    borderRadius: "0px",
+  };
   return (
     <div className="container">
       <h1 className="mb-3 mt-5">Discover</h1>
       <div className="discover-main-page-div">
         <Card className="main-discover-cards" style={cardStyle}>
-          <Card.Img variant="top" src={DiscoverCayenneBig} />
+          <Card.Img variant="top" style={imageStyle} src={DiscoverCayenneBig} />
           <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
               {/* <div>*icon * </div> */}
@@ -35,7 +39,7 @@ const Discover = () => {
         </Card>
 
         <Card className="main-discover-cards" style={cardStyle}>
-          <Card.Img variant="top" src={DiscoveryB} />
+          <Card.Img variant="top" style={imageStyle} src={DiscoveryB} />
           <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
               {/* <div>*icon * </div> */}
@@ -51,7 +55,7 @@ const Discover = () => {
         </Card>
 
         <Card className="main-discover-cards" style={cardStyle}>
-          <Card.Img variant="top" src={DiscoverPhones} />
+          <Card.Img variant="top" style={imageStyle} src={DiscoverPhones} />
           <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
               {/* <div>*icon * </div> */}
@@ -67,7 +71,7 @@ const Discover = () => {
         </Card>
 
         <Card className="main-discover-cards" style={cardStyle}>
-          <Card.Img variant="top" src={DiscoverDSmall} />
+          <Card.Img variant="top" style={imageStyle} src={DiscoverDSmall} />
           <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
               {/* <div>*icon * </div> */}
