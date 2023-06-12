@@ -26,11 +26,10 @@ const Discover = () => {
           <Card.Img variant="top" style={imageStyle} src={DiscoverCayenneBig} />
           <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
-              {/* <div>*icon * </div> */}
               <Card.Text className="main-discover-text">
                 <FontAwesomeIcon
                   icon={faUpRightFromSquare}
-                  style={{ paddingRight: "7px" }}
+                  style={{ paddingRight: "7px", color: "red" }}
                 />
                 Discover image subheading
               </Card.Text>
@@ -42,11 +41,10 @@ const Discover = () => {
           <Card.Img variant="top" style={imageStyle} src={DiscoveryB} />
           <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
-              {/* <div>*icon * </div> */}
               <Card.Text className="main-discover-text">
                 <FontAwesomeIcon
                   icon={faAngleRight}
-                  style={{ paddingRight: "7px" }}
+                  style={{ paddingRight: "7px", color: "red" }}
                 />
                 Discover image subheading
               </Card.Text>
@@ -58,11 +56,10 @@ const Discover = () => {
           <Card.Img variant="top" style={imageStyle} src={DiscoverPhones} />
           <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
-              {/* <div>*icon * </div> */}
               <Card.Text className="main-discover-text">
                 <FontAwesomeIcon
                   icon={faAngleRight}
-                  style={{ paddingRight: "7px" }}
+                  style={{ paddingRight: "7px", color: "red", color: "red" }}
                 />
                 Discover image subheading
               </Card.Text>
@@ -74,11 +71,10 @@ const Discover = () => {
           <Card.Img variant="top" style={imageStyle} src={DiscoverDSmall} />
           <Card.Body className="discover-main-subheading-border">
             <div className="main-discover-text-and-icon-div d-flex">
-              {/* <div>*icon * </div> */}
               <Card.Text className="main-discover-text">
                 <FontAwesomeIcon
                   icon={faAngleRight}
-                  style={{ paddingRight: "7px" }}
+                  style={{ paddingRight: "7px", color: "red" }}
                 />
                 Discover image subheading
               </Card.Text>
