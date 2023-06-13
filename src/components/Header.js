@@ -17,6 +17,7 @@ const Header = () => {
           <FontAwesomeIcon
             className="header-icons"
             icon={faUpRightFromSquare}
+            style={{ color: "blue" }}
           />
         </div>
       </div>
