@@ -32,45 +32,40 @@ const ShoppingTools = () => {
         <div className="shopping-tools-div d-flex">
           <Card style={cardStyle}>
             <Card.Img variant="top" style={imageStyle} src={twoCarsOne} />
-            {/* <Card.Body> */}
+
             <Card.Title className="main-shopping-card-title">
               <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
               Compare
             </Card.Title>
-            {/* </Card.Body> */}
           </Card>
 
           <Card style={cardStyle}>
             <Card.Img variant="top" style={imageStyle} src={FinanceCropped} />
 
-            {/* <Card.Body> */}
             <Card.Title className="main-shopping-card-title">
               <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
               Financial Services
             </Card.Title>
-            {/* </Card.Body> */}
           </Card>
 
           <Card style={cardStyle}>
             <Card.Img variant="top" style={imageStyle} src={UnderGreyCover} />
-            {/* <Card.Body> */}
+
             <Card.Title className="main-shopping-card-title">
               {" "}
               <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
               Porsche Finder
             </Card.Title>
-            {/* </Card.Body> */}
           </Card>
 
           <Card style={cardStyle} id="main-shopping-tequipment-card">
             <Card.Img variant="top" style={imageStyle} src={TequipmentOne} />
-            {/* <Card.Body> */}
+
             <Card.Title className="main-shopping-card-title">
               {" "}
               <FontAwesomeIcon style={iconStyle} icon={faUpRightFromSquare} />
               Tequipment
             </Card.Title>
-            {/* </Card.Body> */}
           </Card>
         </div>
       </div>

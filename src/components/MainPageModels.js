@@ -1,9 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import Models718 from "../Images/Models718.jpg";
 import Models718Two from "../Images/Models718Two.webp";
 import Models911 from "../Images/Models911.jpg";
-import ModelsTaycan from "../Images/ModelsTaycan.jpg";
 import ModelsPanamera from "../Images/ModelsPanamera.jpg";
 import ModelsMacan from "../Images/ModelsMacan.jpg";
 import ModelsCayenne from "../Images/ModelsCayenne.jpg";
@@ -13,7 +11,6 @@ import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const MainPageModels = () => {
   const cardStyle = {
-    // width: "18rem",
     flex: 1,
     paddingBottom: 0,
     border: "transparent",
@@ -27,7 +24,7 @@ const MainPageModels = () => {
 
   return (
     <div className="models-main-div mb-5">
-      <div className="container">
+      <div className="container mt-5 mb-4">
         <h1>Models</h1>
       </div>
 
@@ -42,14 +39,12 @@ const MainPageModels = () => {
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
               {" "}
-              <h3>
-                <h3>Model Name</h3>
-              </h3>{" "}
+              <h3>Model Name</h3>{" "}
             </Card.Title>
             <Card.Text className="model-price">
-              <h5>from £xx,xxx incl. VAT</h5>
+              <div> {/* <h5>from £xx,xxx incl. VAT</h5> */}</div>
             </Card.Text>
-            {/* <div className="model-button-div"> */}
+
             <Button className="model-left-button" variant="primary">
               <FontAwesomeIcon
                 icon={faUpRightFromSquare}
@@ -60,7 +55,6 @@ const MainPageModels = () => {
             <Button className="model-right-button" variant="primary">
               All Models
             </Button>
-            {/* </div> */}
           </Card.Body>
         </Card>
 
@@ -76,9 +70,9 @@ const MainPageModels = () => {
               <h3>Model Name</h3>
             </Card.Title>
             <Card.Text className="model-price">
-              <h5>from £xx,xxx incl. VAT</h5>
+              <div> {/* <h5>from £xx,xxx incl. VAT</h5> */}</div>
             </Card.Text>
-            {/* <div className="model-button-div"> */}
+
             <Button className="model-left-button" variant="primary">
               <FontAwesomeIcon
                 icon={faUpRightFromSquare}
@@ -89,7 +83,6 @@ const MainPageModels = () => {
             <Button className="model-right-button" variant="primary">
               All Models
             </Button>
-            {/* </div> */}
           </Card.Body>
         </Card>
 
@@ -105,7 +98,7 @@ const MainPageModels = () => {
               <h3>Model Name</h3>
             </Card.Title>
             <Card.Text className="model-price">
-              <h5>from £xx,xxx incl. VAT</h5>
+              {/* <div> <h5>from £xx,xxx incl. VAT</h5></div> */}
             </Card.Text>
 
             <Button className="model-left-button" variant="primary">
@@ -133,7 +126,7 @@ const MainPageModels = () => {
               <h3>Model Name</h3>
             </Card.Title>
             <Card.Text className="model-price">
-              <h5>from £xx,xxx incl. VAT</h5>
+              {/* <div> <h5>from £xx,xxx incl. VAT</h5></div> */}
             </Card.Text>
             <div className="model-button-div">
               <Button className="model-left-button" variant="primary">
@@ -163,7 +156,7 @@ const MainPageModels = () => {
               <h3>Model Name</h3>
             </Card.Title>
             <Card.Text className="model-price">
-              <h5>from £xx,xxx incl. VAT</h5>
+              {/* <div> <h5>from £xx,xxx incl. VAT</h5></div> */}
             </Card.Text>
             <div className="model-button-div">
               <Button className="model-left-button" variant="primary">
@@ -193,7 +186,7 @@ const MainPageModels = () => {
               <h3>Model Name</h3>
             </Card.Title>
             <Card.Text className="model-price">
-              <h5>from £xx,xxx incl. VAT</h5>
+              {/* <div> <h5>from £xx,xxx incl. VAT</h5></div> */}
             </Card.Text>
             <div className="model-button-div">
               <Button className="model-left-button" variant="primary">

@@ -1,5 +1,4 @@
 import React from "react";
-import LogoPorsche from "../Images/LogoPorsche.jpg";
 import LogoPorscheTwo from "../Images/LogoPorscheTwo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";

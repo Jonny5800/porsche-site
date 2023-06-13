@@ -1,12 +1,15 @@
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+
 const MainFooterLinks = () => {
-  const [mobileView, setMobileView] = useState(false);
+  let mobileView;
+  // const [mobileView, setMobileView] = useState(false);
+  // setMobileView(false);
+
   return (
     <div className="container  ">
       <div className="main-footer-links-div mt-5 mb-3">
