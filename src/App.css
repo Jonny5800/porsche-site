@@ -259,3 +259,26 @@ li {
   text-align: center;
   background-color: #f0f0f0;
 }
+.finder-slider-wrapper {
+  /* height: 250px; */
+}
+.finder-container {
+  height: 250px;
+}
+.finder-images {
+  height: 80%;
+}
+.finder-next-button,
+.finder-prev-button {
+  color: red;
+}
+.finder-subheader {
+  color: green;
+  /* background-color: blue; */
+  font-size: 36px;
+}
+
+.finder-next-button {
+}
+.finder-prev-button {
+}
