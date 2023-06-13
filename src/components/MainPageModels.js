@@ -25,7 +25,10 @@ const MainPageModels = () => {
   return (
     <div className="models-main-div mb-5">
       <div className="container mt-5 mb-4">
-        <h1>Models</h1>
+        <div className="model-section-heading">
+          {" "}
+          <h1>Models</h1>{" "}
+        </div>
       </div>
 
       <div className="models-container-box">
@@ -39,10 +42,10 @@ const MainPageModels = () => {
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
               {" "}
-              <h3>Model Name</h3>{" "}
+              <span className="model-name-span"> Model Name </span>{" "}
             </Card.Title>
             <Card.Text className="model-price">
-              <div> {/* <h5>from £xx,xxx incl. VAT</h5> */}</div>
+              <span className=""> from £xx,xxx incl. VAT </span>
             </Card.Text>
 
             <Button className="model-left-button" variant="primary">
@@ -57,7 +60,6 @@ const MainPageModels = () => {
             </Button>
           </Card.Body>
         </Card>
-
         <Card style={cardStyle}>
           <Card.Img
             className="model-image"
@@ -67,10 +69,10 @@ const MainPageModels = () => {
           />
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
-              <h3>Model Name</h3>
+              <span className="model-name-span">Model Name</span>
             </Card.Title>
             <Card.Text className="model-price">
-              <div> {/* <h5>from £xx,xxx incl. VAT</h5> */}</div>
+              <span className="">from £xx,xxx incl. VAT</span>
             </Card.Text>
 
             <Button className="model-left-button" variant="primary">
@@ -95,10 +97,10 @@ const MainPageModels = () => {
           />
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
-              <h3>Model Name</h3>
+              <span className="model-name-span">Model Name</span>
             </Card.Title>
             <Card.Text className="model-price">
-              {/* <div> <h5>from £xx,xxx incl. VAT</h5></div> */}
+              <span className="model-price-span">from £xx,xxx incl. VAT</span>
             </Card.Text>
 
             <Button className="model-left-button" variant="primary">
@@ -113,7 +115,6 @@ const MainPageModels = () => {
             </Button>
           </Card.Body>
         </Card>
-
         <Card style={cardStyle}>
           <Card.Img
             className="model-image"
@@ -123,10 +124,10 @@ const MainPageModels = () => {
           />
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
-              <h3>Model Name</h3>
+              <span className="model-name-span">Model Name</span>
             </Card.Title>
             <Card.Text className="model-price">
-              {/* <div> <h5>from £xx,xxx incl. VAT</h5></div> */}
+              <span className="model-price-span">from £xx,xxx incl. VAT</span>
             </Card.Text>
             <div className="model-button-div">
               <Button className="model-left-button" variant="primary">
@@ -143,7 +144,6 @@ const MainPageModels = () => {
             </div>
           </Card.Body>
         </Card>
-
         <Card style={cardStyle}>
           <Card.Img
             className="model-image"
@@ -153,10 +153,10 @@ const MainPageModels = () => {
           />
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
-              <h3>Model Name</h3>
+              <span className="model-name-span">Model Name</span>
             </Card.Title>
             <Card.Text className="model-price">
-              {/* <div> <h5>from £xx,xxx incl. VAT</h5></div> */}
+              <span className="model-price-span">from £xx,xxx incl. VAT</span>
             </Card.Text>
             <div className="model-button-div">
               <Button className="model-left-button" variant="primary">
@@ -173,7 +173,6 @@ const MainPageModels = () => {
             </div>
           </Card.Body>
         </Card>
-
         <Card style={cardStyle}>
           <Card.Img
             className="model-image"
@@ -183,10 +182,10 @@ const MainPageModels = () => {
           />
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
-              <h3>Model Name</h3>
+              <span className="model-name-span">Model Name</span>
             </Card.Title>
             <Card.Text className="model-price">
-              {/* <div> <h5>from £xx,xxx incl. VAT</h5></div> */}
+              <span className="model-price-span">from £xx,xxx incl. VAT</span>
             </Card.Text>
             <div className="model-button-div">
               <Button className="model-left-button" variant="primary">
