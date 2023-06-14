@@ -24,8 +24,8 @@ const MainPageModels = () => {
 
   return (
     <div className="models-main-div mb-5">
-      <div className="container mt-5 mb-4">
-        <div className="model-section-heading">
+      <div className="container-find-shop-discover mt-5 mb-4">
+        <div className="model-section-heading ">
           {" "}
           <h1>Models</h1>{" "}
         </div>
@@ -42,10 +42,10 @@ const MainPageModels = () => {
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
               {" "}
-              <span className="model-name-span"> Model Name </span>{" "}
+              <span className="model-name-span"> 718 </span>{" "}
             </Card.Title>
             <Card.Text className="model-price">
-              <span className=""> from £xx,xxx incl. VAT </span>
+              <span className=""> from £51,800.00 incl. VAT </span>
             </Card.Text>
 
             <Button className="model-left-button" variant="primary">
@@ -69,10 +69,10 @@ const MainPageModels = () => {
           />
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
-              <span className="model-name-span">Model Name</span>
+              <span className="model-name-span">911</span>
             </Card.Title>
             <Card.Text className="model-price">
-              <span className="">from £xx,xxx incl. VAT</span>
+              <span className="">from £97,000.00 incl. VAT</span>
             </Card.Text>
 
             <Button className="model-left-button" variant="primary">
@@ -97,10 +97,12 @@ const MainPageModels = () => {
           />
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
-              <span className="model-name-span">Model Name</span>
+              <span className="model-name-span">Taycan</span>
             </Card.Title>
             <Card.Text className="model-price">
-              <span className="model-price-span">from £xx,xxx incl. VAT</span>
+              <span className="model-price-span">
+                from £79,200.00 incl. VAT
+              </span>
             </Card.Text>
 
             <Button className="model-left-button" variant="primary">
@@ -124,10 +126,12 @@ const MainPageModels = () => {
           />
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
-              <span className="model-name-span">Model Name</span>
+              <span className="model-name-span">Panamera</span>
             </Card.Title>
             <Card.Text className="model-price">
-              <span className="model-price-span">from £xx,xxx incl. VAT</span>
+              <span className="model-price-span">
+                from £72,900.00 incl. VAT
+              </span>
             </Card.Text>
             <div className="model-button-div">
               <Button className="model-left-button" variant="primary">
@@ -153,10 +157,12 @@ const MainPageModels = () => {
           />
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
-              <span className="model-name-span">Model Name</span>
+              <span className="model-name-span">Macan</span>
             </Card.Title>
             <Card.Text className="model-price">
-              <span className="model-price-span">from £xx,xxx incl. VAT</span>
+              <span className="model-price-span">
+                from £53,400.00 incl. VAT
+              </span>
             </Card.Text>
             <div className="model-button-div">
               <Button className="model-left-button" variant="primary">
@@ -182,10 +188,12 @@ const MainPageModels = () => {
           />
           <Card.Body style={{ padding: "0px" }}>
             <Card.Title className="model-name ">
-              <span className="model-name-span">Model Name</span>
+              <span className="model-name-span">Cayenne</span>
             </Card.Title>
             <Card.Text className="model-price">
-              <span className="model-price-span">from £xx,xxx incl. VAT</span>
+              <span className="model-price-span">
+                from £67,400.00 incl. VAT
+              </span>
             </Card.Text>
             <div className="model-button-div">
               <Button className="model-left-button" variant="primary">

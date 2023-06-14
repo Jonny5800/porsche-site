@@ -25,9 +25,10 @@ const ShoppingTools = () => {
     height: "100%",
     borderRadius: "0px",
   };
+
   return (
     <div>
-      <div className="container shopping-container">
+      <div className=" shopping-container container-find-shop-discover">
         <h1 className="mb-4">Shopping Tools</h1>
         <div className="shopping-tools-div d-flex">
           <Card style={cardStyle}>

@@ -23,7 +23,7 @@ const Discover = () => {
     color: "red",
   };
   return (
-    <div className="container">
+    <div className="container-find-shop-discover discover">
       <h1 className="mb-3 mt-5">Discover</h1>
       <div className="discover-main-page-div">
         <Card className="main-discover-cards" style={cardStyle}>

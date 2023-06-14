@@ -4,6 +4,11 @@
   margin: 0px;
   /* border: 1px solid black; */
 }
+.container-find-shop-discover {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
 li {
   list-style-type: none;
   line-height: 40px;
@@ -43,7 +48,6 @@ li {
   font-size: 30px;
 }
 .header-icons {
-  color: red;
   padding: 0px;
   padding-bottom: 10px;
   padding: 0px 15px 10px;
@@ -155,6 +159,10 @@ li {
   display: flex;
   justify-content: center;
 }
+.container .shopping-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .shopping-tools-div .main-shopping-card-title {
   color: white;
   position: absolute;
@@ -212,7 +220,7 @@ li {
   padding: 0px;
 }
 .footer-cols > ul > li {
-  transition: 0.2s ease-in;
+  transition: 0.15s ease-in;
   font-weight: 500;
 }
 .footer-cols > ul > li:hover {
@@ -241,44 +249,72 @@ li {
 .connect-with-porsche {
   padding-top: 20px;
   margin-bottom: 0px;
+  font-weight: bolder;
 }
 .slider {
-  width: 100%;
   overflow: hidden;
+  /* background-color: blue; The whole slide background */
+  background-image: url("./Images/LogoPorsche.jpg");
+  background-image: url("./Images/LogoPorschePNG.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .slider-wrapper {
   display: flex;
   transition: transform 0.5s ease;
+  background-color: pink;
 }
 
 .slide {
   flex: 0 0 33.33%;
   box-sizing: border-box;
-  padding: 10px;
+
   text-align: center;
   background-color: #f0f0f0;
+  background-color: yellow;
+  background-color: transparent;
 }
-.finder-slider-wrapper {
-  /* height: 250px; */
-}
+
 .finder-container {
   height: 250px;
+  background-color: green;
+  border: none;
+  margin: none;
+  padding: none;
+  background-color: transparent;
 }
 .finder-images {
   height: 80%;
+  width: auto;
+}
+.finder-button-div {
+  text-align: center;
 }
 .finder-next-button,
 .finder-prev-button {
   color: red;
 }
 .finder-subheader {
-  color: green;
-  /* background-color: blue; */
-  font-size: 36px;
-}
+  color: blue;
 
-.finder-next-button {
+  font-size: 30px;
 }
-.finder-prev-button {
+.facebook {
+  background-color: transparent;
+  color: #3b5998;
+}
+.linkedin {
+  color: #0077b5;
+}
+.instagram {
+  color: #833ab4;
+}
+.twitter {
+  color: #1da1f2;
+}
+.drops > i,
+.connect-icons > i {
+  padding: 15px 30px 20px 0px;
 }
