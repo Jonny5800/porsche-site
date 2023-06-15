@@ -4,10 +4,7 @@ import { Helmet } from "react-helmet";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUpRightFromSquare,
-  faHashtag,
-} from "@fortawesome/free-solid-svg-icons";
+import { faHashtag } from "@fortawesome/free-solid-svg-icons";
 <FontAwesomeIcon icon={faHashtag} />;
 const MainFooterLinks = () => {
   let mobileView;
