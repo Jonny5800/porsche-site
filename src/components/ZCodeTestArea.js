@@ -1,207 +1,108 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import Models718Two from "../Images/Models718Two.webp";
-import Models911 from "../Images/Models911.jpg";
-import ModelsPanamera from "../Images/ModelsPanamera.jpg";
-import ModelsMacan from "../Images/ModelsMacan.jpg";
-import ModelsCayenne from "../Images/ModelsCayenne.jpg";
-import ModelTaycan from "../Images/ModelTaycan.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { Row, Col, Card } from "react-bootstrap";
 
+import TequipmentOne from "../Images/ShoppingToolsPics/TequipmentOne.jpg";
+import FinanceCropped from "../Images/ShoppingToolsPics/FinanceCropped.jpg";
+import twoCarsOne from "../Images/ShoppingToolsPics/twoCarsOne.jpg";
+import UnderGreyCover from "../Images/ShoppingToolsPics/UnderGreyCover.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAngleRight,
+  faUpRightFromSquare,
+} from "@fortawesome/free-solid-svg-icons";
 const ZCodeTestArea = () => {
   const cardStyle = {
+    width: "18rem",
+    padding: "0px",
     flex: 1,
-    paddingBottom: 0,
     border: "transparent",
   };
-
+  const iconStyle = {
+    paddingRight: "10px",
+    color: "red",
+  };
   const imageStyle = {
-    objectFit: "cover",
     height: "100%",
     borderRadius: "0px",
   };
   return (
-    <div className="models-main-div mb-5">
-      <div className="container mt-5 mb-4">
-        <div className="model-section-heading">
-          {" "}
-          <h1>Models</h1>{" "}
+    <div>
+      <div className="shopping-container container-find-shop-discover">
+        <h1 className="mb-4">Shopping Tools</h1>
+        <div className="shopping-tools-div">
+          <Row>
+            <Col md={6} lg={3}>
+              <Card style={cardStyle}>
+                {" "}
+                <Card style={cardStyle}>
+                  <Card.Img variant="top" style={imageStyle} src={twoCarsOne} />
+
+                  <Card.Title className="main-shopping-card-title">
+                    <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
+                    Compare
+                  </Card.Title>
+                </Card>
+              </Card>
+            </Col>
+            <Col md={6} lg={3}>
+              <Card style={cardStyle}>
+                {" "}
+                <Card style={cardStyle}>
+                  <Card.Img
+                    variant="top"
+                    style={imageStyle}
+                    src={FinanceCropped}
+                  />
+
+                  <Card.Title className="main-shopping-card-title">
+                    <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
+                    Financial Services
+                  </Card.Title>
+                </Card>
+              </Card>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6} lg={3}>
+              <Card style={cardStyle}>
+                {" "}
+                <Card style={cardStyle}>
+                  <Card.Img
+                    variant="top"
+                    style={imageStyle}
+                    src={UnderGreyCover}
+                  />
+
+                  <Card.Title className="main-shopping-card-title">
+                    {" "}
+                    <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
+                    Porsche Finder
+                  </Card.Title>
+                </Card>
+              </Card>
+            </Col>
+            <Col md={6} lg={3}>
+              <Card style={cardStyle} id="main-shopping-tequipment-card">
+                <Card style={cardStyle} id="main-shopping-tequipment-card">
+                  <Card.Img
+                    variant="top"
+                    style={imageStyle}
+                    src={TequipmentOne}
+                  />
+
+                  <Card.Title className="main-shopping-card-title">
+                    {" "}
+                    <FontAwesomeIcon
+                      style={iconStyle}
+                      icon={faUpRightFromSquare}
+                    />
+                    Tequipment
+                  </Card.Title>
+                </Card>
+              </Card>
+            </Col>
+          </Row>
         </div>
-      </div>
-
-      <div className="models-container-box">
-        <Card style={cardStyle}>
-          <Card.Img
-            className="model-image"
-            variant="top"
-            src={Models718Two}
-            style={imageStyle}
-          />
-          <Card.Body style={{ padding: "0px" }}>
-            <Card.Title className="model-name ">
-              {" "}
-              <span className="model-name-span"> Model Name </span>{" "}
-            </Card.Title>
-            <Card.Text className="model-price">
-              <span className=""> from £xx,xxx incl. VAT </span>
-            </Card.Text>
-
-            <Button className="model-left-button" variant="primary">
-              <FontAwesomeIcon
-                icon={faUpRightFromSquare}
-                style={{ paddingRight: "7px" }}
-              />
-              Build your own
-            </Button>
-            <Button className="model-right-button" variant="primary">
-              All Models
-            </Button>
-          </Card.Body>
-        </Card>
-        <Card style={cardStyle}>
-          <Card.Img
-            className="model-image"
-            variant="top"
-            src={Models911}
-            style={imageStyle}
-          />
-          <Card.Body style={{ padding: "0px" }}>
-            <Card.Title className="model-name ">
-              <span className="model-name-span">Model Name</span>
-            </Card.Title>
-            <Card.Text className="model-price">
-              <span className="">from £xx,xxx incl. VAT</span>
-            </Card.Text>
-
-            <Button className="model-left-button" variant="primary">
-              <FontAwesomeIcon
-                icon={faUpRightFromSquare}
-                style={{ paddingRight: "7px" }}
-              />
-              Build your own
-            </Button>
-            <Button className="model-right-button" variant="primary">
-              All Models
-            </Button>
-          </Card.Body>
-        </Card>
-
-        <Card style={cardStyle}>
-          <Card.Img
-            className="model-image"
-            variant="top"
-            src={ModelTaycan}
-            style={imageStyle}
-          />
-          <Card.Body style={{ padding: "0px" }}>
-            <Card.Title className="model-name ">
-              <span className="model-name-span">Model Name</span>
-            </Card.Title>
-            <Card.Text className="model-price">
-              <span className="model-price-span">from £xx,xxx incl. VAT</span>
-            </Card.Text>
-
-            <Button className="model-left-button" variant="primary">
-              <FontAwesomeIcon
-                icon={faUpRightFromSquare}
-                style={{ paddingRight: "7px" }}
-              />
-              Build your own
-            </Button>
-            <Button className="model-right-button" variant="primary">
-              All Models
-            </Button>
-          </Card.Body>
-        </Card>
-        <Card style={cardStyle}>
-          <Card.Img
-            className="model-image"
-            variant="top"
-            src={ModelsPanamera}
-            style={imageStyle}
-          />
-          <Card.Body style={{ padding: "0px" }}>
-            <Card.Title className="model-name ">
-              <span className="model-name-span">Model Name</span>
-            </Card.Title>
-            <Card.Text className="model-price">
-              <span className="model-price-span">from £xx,xxx incl. VAT</span>
-            </Card.Text>
-            <div className="model-button-div">
-              <Button className="model-left-button" variant="primary">
-                {" "}
-                <FontAwesomeIcon
-                  icon={faUpRightFromSquare}
-                  style={{ paddingRight: "7px" }}
-                />
-                Build your own
-              </Button>
-              <Button className="model-right-button" variant="primary">
-                All Models
-              </Button>
-            </div>
-          </Card.Body>
-        </Card>
-        <Card style={cardStyle}>
-          <Card.Img
-            className="model-image"
-            variant="top"
-            src={ModelsMacan}
-            style={imageStyle}
-          />
-          <Card.Body style={{ padding: "0px" }}>
-            <Card.Title className="model-name ">
-              <span className="model-name-span">Model Name</span>
-            </Card.Title>
-            <Card.Text className="model-price">
-              <span className="model-price-span">from £xx,xxx incl. VAT</span>
-            </Card.Text>
-            <div className="model-button-div">
-              <Button className="model-left-button" variant="primary">
-                {" "}
-                <FontAwesomeIcon
-                  icon={faUpRightFromSquare}
-                  style={{ paddingRight: "7px" }}
-                />
-                Build your own
-              </Button>
-              <Button className="model-right-button" variant="primary">
-                All Models
-              </Button>
-            </div>
-          </Card.Body>
-        </Card>
-        <Card style={cardStyle}>
-          <Card.Img
-            className="model-image"
-            variant="top"
-            src={ModelsCayenne}
-            style={imageStyle}
-          />
-          <Card.Body style={{ padding: "0px" }}>
-            <Card.Title className="model-name ">
-              <span className="model-name-span">Model Name</span>
-            </Card.Title>
-            <Card.Text className="model-price">
-              <span className="model-price-span">from £xx,xxx incl. VAT</span>
-            </Card.Text>
-            <div className="model-button-div">
-              <Button className="model-left-button" variant="primary">
-                {" "}
-                <FontAwesomeIcon
-                  icon={faUpRightFromSquare}
-                  style={{ paddingRight: "7px" }}
-                />
-                Build your own
-              </Button>
-              <Button className="model-right-button" variant="primary">
-                All Models
-              </Button>
-            </div>
-          </Card.Body>
-        </Card>
       </div>
     </div>
   );

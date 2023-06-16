@@ -155,6 +155,35 @@ li {
   }
 }
 
+@media (max-width: 900px) {
+  .models-main-div .model-left-button,
+  .models-main-div .model-right-button {
+    font-size: 10px;
+  }
+  .models-main-div .model-right-button {
+    font-size: 10px;
+    left: 135px;
+  }
+}
+@media (max-width: 735px) {
+  .models-main-div .model-left-button,
+  .models-main-div .model-right-button {
+    font-size: 8px;
+  }
+  .models-main-div .model-right-button {
+    font-size: 8px;
+    left: 120px;
+  }
+}
+@media (max-width: 670px) {
+  .models-main-div .model-left-button,
+  .models-main-div .model-right-button {
+    display: none;
+  }
+  .models-main-div .model-right-button {
+    display: none;
+  }
+}
 .shopping-tools-div {
   display: flex;
   justify-content: center;
@@ -179,6 +208,16 @@ li {
   #main-shopping-tequipment-card {
     color: blue;
     display: none;
+  }
+}
+@media (max-width: 1590px) {
+  .shopping-tools-div .main-shopping-card-title {
+    bottom: 10px;
+  }
+}
+@media (max-width: 1390px) {
+  .shopping-tools-div .main-shopping-card-title {
+    bottom: 7px;
   }
 }
 .discover-main-page-div {
@@ -253,9 +292,8 @@ li {
 }
 .slider {
   overflow: hidden;
-  /* background-color: blue; The whole slide background */
-  background-image: url("./Images/LogoPorsche.jpg");
-  background-image: url("./Images/LogoPorschePNG.png");
+
+  /* background-image: url("./Images/LogoPorschePNG.png"); */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -264,7 +302,7 @@ li {
 .slider-wrapper {
   display: flex;
   transition: transform 0.5s ease;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .slide {
@@ -294,7 +332,11 @@ li {
 }
 .finder-next-button,
 .finder-prev-button {
-  color: red;
+  color: black;
+  background-color: white;
+  padding: 8px 25px;
+  margin: 0px 6px;
+  font-weight: bolder;
 }
 .finder-subheader {
   color: blue;
@@ -321,42 +363,37 @@ li {
 
 .model-name-span {
   font-size: 30px;
-  color: blue;
+  color: white;
 }
 .model-price {
   font-size: 18px;
-  color: red;
+  color: white;
 }
 
 @media (max-width: 1500px) {
   .model-name-span {
     font-size: 25px;
-    color: green;
   }
   .model-price {
     font-size: 15px;
-    color: red;
   }
 }
 
 @media (max-width: 960px) {
   .model-name-span {
     font-size: 20px;
-    color: pink;
   }
   .model-price {
     font-size: 12px;
-    color: red;
   }
 }
 @media (max-width: 775px) {
   .model-name-span {
     font-size: 20px;
-    color: pink;
   }
   .model-price {
     font-size: 12px;
-    color: red;
+
     display: none;
   }
 }

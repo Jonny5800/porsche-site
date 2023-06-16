@@ -7,7 +7,7 @@ import MainFindReserve from "./components/MainFindReserve";
 import ShoppingTools from "./components/ShoppingTools";
 import Discover from "./components/Discover";
 import MainFooterLinks from "./components/MainFooterLinks";
-// import ZCodeTestArea from "./components/ZCodeTestArea";
+import ZCodeTestArea from "./components/ZCodeTestArea";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <ShoppingTools />
       <Discover />
       <MainFooterLinks />
-      {/* <ZCodeTestArea /> */}
+      <ZCodeTestArea />
     </div>
   );
 }
