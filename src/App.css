@@ -27,6 +27,7 @@ li {
   align-items: center;
   background-color: transparent;
   height: 100px;
+  background-color: pink;
 }
 .logo-porsche {
   z-index: 1;
@@ -42,6 +43,7 @@ li {
 .icon-button-div {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .icon-button-div > p {
   color: black;
@@ -258,13 +260,19 @@ li {
 .footer-cols > ul {
   padding: 0px;
 }
-.footer-cols > ul > li {
+.footer-cols > ul > li > a {
   transition: 0.15s ease-in;
   font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
-.footer-cols > ul > li:hover {
+.footer-cols > ul > li > a:hover {
   color: red;
+
+  /* background-color: lightblue; */
 }
+
 .share-page-icon-and-title {
   color: white;
   background-color: gray;

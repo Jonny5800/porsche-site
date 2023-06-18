@@ -3,16 +3,21 @@ import { Helmet } from "react-helmet";
 // import { useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHashtag } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faHashtag } from "@fortawesome/free-solid-svg-icons";
 
-const MainFooterLinks = () => {
+const MainFooterLinks = ({ makeDay, makeNight }) => {
   let mobileView;
   // const [mobileView, setMobileView] = useState(false);
   // setMobileView(false);
 
   return (
-    <div className="container-find-shop-discover  ">
+    // <div className="container-find-shop-discover  ">
+    <div
+      className={`container-find-shop-discover ${
+        makeNight ? "night-mode" : ""
+      }`}
+    >
       <Helmet>
         <script
           src="https://kit.fontawesome.com/a5e402e3b2.js"
@@ -31,61 +36,98 @@ const MainFooterLinks = () => {
                 <Col className="footer-cols" xs={6}>
                   <ul>
                     <h4>Build & Find</h4>
-                    <li>Build your Porsche</li>
-                    <li>Compare Models</li>
-                    <li>Find a Porsche</li>
-                    <li>Find a Porsche Centre</li>
+                    <li>
+                      <a href="#">Build your Porsche</a>
+                    </li>
+                    <li>
+                      <a href="#">Compare Models</a>
+                    </li>
+                    <li>
+                      <a href="#">Find a Porsche</a>
+                    </li>
+                    <li>
+                      <a href="#">Find a Porsche Centre</a>
+                    </li>
                   </ul>
                 </Col>
                 <Col className="footer-cols">
-                  {" "}
                   <ul>
-                    <h4>Online Services</h4>
-                    <li>Porsche Financial Services</li>
-                    <li>Sign up for News</li>
-                    <li>Porsche Recall Search</li>
-                    <li>Porsche Insurance</li>
-                    <li>Porsche Online Shop</li>
+                    <h4> Online Services</h4>
+                    <li>
+                      <a href="#">Porsche Financial Services</a>
+                    </li>
+                    <li>
+                      <a href="#">Sign up for News</a>
+                    </li>
+                    <li>
+                      <a href="#">Porsche Recall Search</a>
+                    </li>
+                    <li>
+                      <a href="#">Porsche Insurance</a>
+                    </li>
+                    <li>
+                      <a href="#">Porsche Online Shop</a>
+                    </li>
                   </ul>
                 </Col>
                 <Col className="footer-cols">
-                  {" "}
                   <ul>
                     <h4>Behind the scenes</h4>
-                    <li>Passion Motorsports</li>
-                    <li>Porsche Experience</li>
-                    <li>Porsche Classic</li>
-                    <li>Visit Porsche Museum</li>
+                    <li>
+                      <a href="#">Passion Motorsports</a>
+                    </li>
+                    <li>
+                      <a href="#">Porsche Experience</a>
+                    </li>
+                    <li>
+                      <a href="#">Porsche Classic</a>
+                    </li>
+                    <li>
+                      <a href="#">Visit Porsche Museum</a>
+                    </li>
                   </ul>
                 </Col>
                 <Col className="footer-cols">
                   <ul>
                     <h4>Porsche Company</h4>
-                    <li>Latest News</li>
-                    <li>At a Glance</li>
-                    <li>Responsibility</li>
-                    <li>Jobs & Careers</li>
-                    <li>Contact & Information</li>
-                    <li>Christophorus - The Porsche Magazine</li>
+                    <li>
+                      <a href="#">Latest News</a>
+                    </li>
+                    <li>
+                      <a href="#">At a Glance</a>
+                    </li>
+                    <li>
+                      <a href="#">Responsibility</a>
+                    </li>
+                    <li>
+                      <a href="#">Jobs & Careers</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact & Information</a>
+                    </li>
+                    <li>
+                      <a href="#">Christophorus - The Porsche Magazine</a>
+                    </li>
                   </ul>
 
                   <div className="share-page">
                     <div className="share-page-icon-and-title">
-                      <i class="fa-solid fa-share-nodes fa-lg"></i> Share Page
+                      <i className="fa-solid fa-share-nodes fa-lg"></i> Share
+                      Page
                     </div>
                     <div className="drop">
                       <div className="drop-top">
                         <div className="drops facebook">
-                          <i class="fa-brands fa-square-facebook facebook fa-2xl"></i>
+                          <i className="fa-brands fa-square-facebook facebook fa-2xl"></i>
                         </div>
                         <div className="drops twitter">
-                          <i class="fa-brands fa-square-twitter fa-2xl twitter"></i>
+                          <i className="fa-brands fa-square-twitter fa-2xl twitter"></i>
                         </div>
                         <div className="drops instagram">
-                          <i class="fa-brands fa-square-instagram fa-2xl instagram"></i>
+                          <i className="fa-brands fa-square-instagram fa-2xl instagram"></i>
                         </div>
                         <div className="drops linkedin">
-                          <i class="fa-brands fa-linkedin fa-2xl linkedin"></i>
+                          <i className="fa-brands fa-linkedin fa-2xl linkedin"></i>
                         </div>
                       </div>
                       <div className="connect-div">
@@ -94,13 +136,13 @@ const MainFooterLinks = () => {
                         </p>
                         <div className="connect">
                           <div className="connect-icons">
-                            <i class="fa-brands fa-square-facebook fa-2xl facebook"></i>{" "}
+                            <i className="fa-brands fa-square-facebook fa-2xl facebook"></i>{" "}
                           </div>
                           <div className="connect-icons">
-                            <i class="fa-brands fa-square-twitter fa-2xl twitter"></i>{" "}
+                            <i className="fa-brands fa-square-twitter fa-2xl twitter"></i>{" "}
                           </div>
                           <div className="connect-icons">
-                            <i class="fa-brands fa-square-instagram fa-2xl instagram"></i>{" "}
+                            <i className="fa-brands fa-square-instagram fa-2xl instagram"></i>{" "}
                           </div>
                           <div className="connect-icons"> </div>
                         </div>
