@@ -10,9 +10,10 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
   let mobileView;
   // const [mobileView, setMobileView] = useState(false);
   // setMobileView(false);
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+
+  // const scrollToTop = () => {
+  //   window.scrollTo({ top: 0, behavior: "smooth" });
+  // };
   return (
     // <div className="container-find-shop-discover  ">
     <div
@@ -40,16 +41,24 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
                     <h4>Build & Find</h4>
 
                     <li>
-                      <a onClick={scrollToTop}>Build your Porsche</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Build your Porsche
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Compare Models</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Compare Models
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Find a Porsche</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Find a Porsche
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Find a Porsche Centre</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Find a Porsche Centre
+                      </a>
                     </li>
                   </ul>
                 </Col>
@@ -57,19 +66,29 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
                   <ul>
                     <h4> Online Services</h4>
                     <li>
-                      <a onClick={scrollToTop}>Porsche Financial Services</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Porsche Financial Services
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Sign up for News</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Sign up for News
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Porsche Recall Search</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Porsche Recall Search
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Porsche Insurance</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Porsche Insurance
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Porsche Online Shop</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Porsche Online Shop
+                      </a>
                     </li>
                   </ul>
                 </Col>
@@ -77,16 +96,24 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
                   <ul>
                     <h4>Behind the scenes</h4>
                     <li>
-                      <a onClick={scrollToTop}>Passion Motorsports</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Passion Motorsports
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Porsche Experience</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Porsche Experience
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Porsche Classic</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Porsche Classic
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Visit Porsche Museum</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Visit Porsche Museum
+                      </a>
                     </li>
                   </ul>
                 </Col>
@@ -94,22 +121,32 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
                   <ul>
                     <h4>Porsche Company</h4>
                     <li>
-                      <a onClick={scrollToTop}>Latest News</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Latest News
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>At a Glance</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        At a Glance
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Responsibility</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Responsibility
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Jobs & Careers</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Jobs & Careers
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>Contact & Information</a>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
+                        Contact & Information
+                      </a>
                     </li>
                     <li>
-                      <a onClick={scrollToTop}>
+                      <a href="https://taupe-profiterole-8839a4.netlify.app/">
                         Christophorus - The Porsche Magazine
                       </a>
                     </li>
