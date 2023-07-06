@@ -30,37 +30,45 @@ const MainFindReserve = () => {
         <div className="slider-wrapper finder-slider-wrapper" ref={sliderRef}>
           <div className="slide">
             <div className=" finder-container">
-              <img className="finder-images" src={GT3rs} />{" "}
+              <img className="finder-images" src={GT3rs} alt="GT3RS" />{" "}
               <div className="finder-subheader"> Find 718 Models</div>
             </div>
           </div>
           <div className="slide">
             <div className=" finder-container">
-              <img className="finder-images" src={Taycan} />{" "}
+              <img className="finder-images" src={Taycan} alt="Taycan" />{" "}
               <div className="finder-subheader"> Find 911 Models</div>
             </div>
           </div>
           <div className="slide">
             <div className=" finder-container">
-              <img className="finder-images" src={Convertible} />{" "}
+              <img
+                className="finder-images"
+                src={Convertible}
+                alt="Convertible"
+              />{" "}
               <div className="finder-subheader"> Find Taycan Models</div>
             </div>
           </div>
           <div className="slide">
             <div className=" finder-container">
-              <img className="finder-images" src={GT3rs} />{" "}
+              <img className="finder-images" src={GT3rs} alt="GT3RS" />{" "}
               <div className="finder-subheader"> Find Panamera Models</div>
             </div>
           </div>
           <div className="slide">
             <div className=" finder-container">
-              <img className="finder-images" src={Taycan} />{" "}
+              <img className="finder-images" src={Taycan} alt="Taycan" />{" "}
               <div className="finder-subheader"> Find Macan Models</div>
             </div>
           </div>
           <div className="slide">
             <div className=" finder-container">
-              <img className="finder-images" src={Convertible} />{" "}
+              <img
+                className="finder-images"
+                src={Convertible}
+                alt="convertible"
+              />{" "}
               <div className="finder-subheader"> Find Cayenne Models</div>
             </div>
           </div>

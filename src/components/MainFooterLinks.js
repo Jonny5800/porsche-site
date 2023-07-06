@@ -10,7 +10,9 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
   let mobileView;
   // const [mobileView, setMobileView] = useState(false);
   // setMobileView(false);
-
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     // <div className="container-find-shop-discover  ">
     <div
@@ -36,17 +38,18 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
                 <Col className="footer-cols" xs={6}>
                   <ul>
                     <h4>Build & Find</h4>
+
                     <li>
-                      <a href="#">Build your Porsche</a>
+                      <a onClick={scrollToTop}>Build your Porsche</a>
                     </li>
                     <li>
-                      <a href="#">Compare Models</a>
+                      <a onClick={scrollToTop}>Compare Models</a>
                     </li>
                     <li>
-                      <a href="#">Find a Porsche</a>
+                      <a onClick={scrollToTop}>Find a Porsche</a>
                     </li>
                     <li>
-                      <a href="#">Find a Porsche Centre</a>
+                      <a onClick={scrollToTop}>Find a Porsche Centre</a>
                     </li>
                   </ul>
                 </Col>
@@ -54,19 +57,19 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
                   <ul>
                     <h4> Online Services</h4>
                     <li>
-                      <a href="#">Porsche Financial Services</a>
+                      <a onClick={scrollToTop}>Porsche Financial Services</a>
                     </li>
                     <li>
-                      <a href="#">Sign up for News</a>
+                      <a onClick={scrollToTop}>Sign up for News</a>
                     </li>
                     <li>
-                      <a href="#">Porsche Recall Search</a>
+                      <a onClick={scrollToTop}>Porsche Recall Search</a>
                     </li>
                     <li>
-                      <a href="#">Porsche Insurance</a>
+                      <a onClick={scrollToTop}>Porsche Insurance</a>
                     </li>
                     <li>
-                      <a href="#">Porsche Online Shop</a>
+                      <a onClick={scrollToTop}>Porsche Online Shop</a>
                     </li>
                   </ul>
                 </Col>
@@ -74,16 +77,16 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
                   <ul>
                     <h4>Behind the scenes</h4>
                     <li>
-                      <a href="#">Passion Motorsports</a>
+                      <a onClick={scrollToTop}>Passion Motorsports</a>
                     </li>
                     <li>
-                      <a href="#">Porsche Experience</a>
+                      <a onClick={scrollToTop}>Porsche Experience</a>
                     </li>
                     <li>
-                      <a href="#">Porsche Classic</a>
+                      <a onClick={scrollToTop}>Porsche Classic</a>
                     </li>
                     <li>
-                      <a href="#">Visit Porsche Museum</a>
+                      <a onClick={scrollToTop}>Visit Porsche Museum</a>
                     </li>
                   </ul>
                 </Col>
@@ -91,22 +94,24 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
                   <ul>
                     <h4>Porsche Company</h4>
                     <li>
-                      <a href="#">Latest News</a>
+                      <a onClick={scrollToTop}>Latest News</a>
                     </li>
                     <li>
-                      <a href="#">At a Glance</a>
+                      <a onClick={scrollToTop}>At a Glance</a>
                     </li>
                     <li>
-                      <a href="#">Responsibility</a>
+                      <a onClick={scrollToTop}>Responsibility</a>
                     </li>
                     <li>
-                      <a href="#">Jobs & Careers</a>
+                      <a onClick={scrollToTop}>Jobs & Careers</a>
                     </li>
                     <li>
-                      <a href="#">Contact & Information</a>
+                      <a onClick={scrollToTop}>Contact & Information</a>
                     </li>
                     <li>
-                      <a href="#">Christophorus - The Porsche Magazine</a>
+                      <a onClick={scrollToTop}>
+                        Christophorus - The Porsche Magazine
+                      </a>
                     </li>
                   </ul>
 
