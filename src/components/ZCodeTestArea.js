@@ -1,107 +1,83 @@
+// import React from "react";
+// import Row from "react-bootstrap/Row";
+// import Col from "react-bootstrap/Col";
+
+// const ZCodeTestArea = () => {
+//   inlineObject={}
+//   return (
+
+//     <div className="footer" style={inlineObject}>
+
+//     <Row className="main-footer-row " md={4}>
+//       <Col className="footer-cols" xs={6}>
+//         <ul>
+//           <h4>Build & Find</h4>
+//         </ul>
+//       </Col>
+//       <Col className="footer-cols">
+//         <ul>
+//           <h4> Online Services</h4>
+//         </ul>
+//       </Col>
+//       <Col className="footer-cols">
+//         <ul>
+//           <h4>Behind the scenes</h4>
+//         </ul>
+//       </Col>
+//       <Col className="footer-cols">
+//         <ul>
+//           <h4>Porsche Company</h4>
+//         </ul>
+
+//         <div className="share-page">
+//           <div className="share-page-icon-and-title">
+//             <i className="fa-solid fa-share-nodes fa-lg"></i> Share Page
+//           </div>
+//           <div className="drop">
+//             <div className="connect-div">
+//               <p className="connect-with-porsche">Connect with Porsche</p>
+//             </div>
+//           </div>
+//         </div>
+//       </Col>
+//     </Row>
+//     </div>
+//   );
+// };
+
+// export default ZCodeTestArea;
+
 import React from "react";
-import { Row, Col, Card } from "react-bootstrap";
-
-import TequipmentOne from "../Images/ShoppingToolsPics/TequipmentOne.jpg";
-import FinanceCropped from "../Images/ShoppingToolsPics/FinanceCropped.jpg";
-import twoCarsOne from "../Images/ShoppingToolsPics/twoCarsOne.jpg";
-import UnderGreyCover from "../Images/ShoppingToolsPics/UnderGreyCover.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAngleRight,
-  faUpRightFromSquare,
-} from "@fortawesome/free-solid-svg-icons";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import "../components/ZCodeTestArea.css";
 const ZCodeTestArea = () => {
-  const cardStyle = {
-    width: "18rem",
-    padding: "0px",
-    flex: 1,
-    border: "transparent",
-  };
-  const iconStyle = {
-    paddingRight: "10px",
-    color: "red",
-  };
-  const imageStyle = {
-    height: "100%",
-    borderRadius: "0px",
-  };
+  // Define inline styles
+  // const inlineObject = {
+  //   display: "flex",
+  //   flexDirection: "row",
+  //   flexWrap: "wrap",
+  //   justifyContent: "center",
+  //   alignItems: "center",
+  // };
+
   return (
-    <div>
-      <div className="shopping-container container-find-shop-discover">
-        <h1 className="mb-4">Shopping Tools</h1>
-        <div className="shopping-tools-div">
-          <Row>
-            <Col md={6} lg={3}>
-              <Card style={cardStyle}>
-                {" "}
-                <Card style={cardStyle}>
-                  <Card.Img variant="top" style={imageStyle} src={twoCarsOne} />
+    <div className="testArea">
+      <div>
+        <div className="col1 testCols">
+          <h4>Column1</h4>
+        </div>
 
-                  <Card.Title className="main-shopping-card-title">
-                    <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
-                    Compare
-                  </Card.Title>
-                </Card>
-              </Card>
-            </Col>
-            <Col md={6} lg={3}>
-              <Card style={cardStyle}>
-                {" "}
-                <Card style={cardStyle}>
-                  <Card.Img
-                    variant="top"
-                    style={imageStyle}
-                    src={FinanceCropped}
-                  />
+        <div className="col2 testCols">
+          <h4>Column2</h4>
+        </div>
 
-                  <Card.Title className="main-shopping-card-title">
-                    <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
-                    Financial Services
-                  </Card.Title>
-                </Card>
-              </Card>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={6} lg={3}>
-              <Card style={cardStyle}>
-                {" "}
-                <Card style={cardStyle}>
-                  <Card.Img
-                    variant="top"
-                    style={imageStyle}
-                    src={UnderGreyCover}
-                  />
+        <div className="col3 testCols">
+          <h4>Column3</h4>
+        </div>
 
-                  <Card.Title className="main-shopping-card-title">
-                    {" "}
-                    <FontAwesomeIcon style={iconStyle} icon={faAngleRight} />
-                    Porsche Finder
-                  </Card.Title>
-                </Card>
-              </Card>
-            </Col>
-            <Col md={6} lg={3}>
-              <Card style={cardStyle} id="main-shopping-tequipment-card">
-                <Card style={cardStyle} id="main-shopping-tequipment-card">
-                  <Card.Img
-                    variant="top"
-                    style={imageStyle}
-                    src={TequipmentOne}
-                  />
-
-                  <Card.Title className="main-shopping-card-title">
-                    {" "}
-                    <FontAwesomeIcon
-                      style={iconStyle}
-                      icon={faUpRightFromSquare}
-                    />
-                    Tequipment
-                  </Card.Title>
-                </Card>
-              </Card>
-            </Col>
-          </Row>
+        <div className="col4 testCols">
+          <h4>Column4</h4>
         </div>
       </div>
     </div>

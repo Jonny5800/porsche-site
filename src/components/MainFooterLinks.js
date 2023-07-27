@@ -14,13 +14,16 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
   // const scrollToTop = () => {
   //   window.scrollTo({ top: 0, behavior: "smooth" });
   // };
+
+  let styleObj = {
+    // border: "1px solid black",
+    // marginLeft: "150px",
+    // marginRight: "150px",
+  };
+
   return (
     // <div className="container-find-shop-discover  ">
-    <div
-      className={`container-find-shop-discover ${
-        makeNight ? "night-mode" : ""
-      }`}
-    >
+    <div style={styleObj} className="MainFooterLinks">
       <Helmet>
         <script
           src="https://kit.fontawesome.com/a5e402e3b2.js"
@@ -31,9 +34,7 @@ const MainFooterLinks = ({ makeDay, makeNight }) => {
         {mobileView ? (
           <h1>This is mobile view</h1>
         ) : (
-          <div className="main-footer-normal-view-div ">
-            <h1>This is only to show in normal view, not mobile</h1>
-
+          <div className="main-footer-normal-view-div">
             <div className="container-find-shop-discover main-footer-div ">
               <Row className="main-footer-row " md={4}>
                 <Col className="footer-cols" xs={6}>

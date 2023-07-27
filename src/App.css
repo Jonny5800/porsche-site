@@ -4,9 +4,9 @@
   margin: 0px;
   /* border: 1px solid black; */
 }
-.container-find-shop-discover {
-  margin-left: 150px;
-  margin-right: 150px;
+.screenshotsDiv > div > img {
+  max-width: 100vw;
+  height: auto;
 }
 
 li {
@@ -28,6 +28,10 @@ li {
   background-color: transparent;
   height: 100px;
   background-color: pink;
+  text-align: center;
+}
+.header-container > h1 {
+  margin: 0px auto;
 }
 .logo-porsche {
   z-index: 1;
@@ -235,6 +239,15 @@ li {
 .main-discover-text:hover {
   color: red;
 }
+.MainFooterLinks * {
+  /* border: 1px solid black; */
+}
+.MainFooterLinks {
+  border: 1px solid green;
+  margin-left: 10%; /**********************************/
+  margin-right: 10%;
+  /* border: 1px solid black; */
+}
 
 .main-footer-top-bottom-flexer {
   display: flex;
@@ -271,6 +284,25 @@ li {
   color: red;
 
   /* background-color: lightblue; */
+}
+
+@media (max-width: 1220px) {
+  .MainFooterLinks {
+    border: 1px solid red;
+  }
+  .main-footer-div .footer-cols {
+    width: 50%;
+    /* float: left; */
+  }
+}
+@media (max-width: 800px) {
+  .MainFooterLinks {
+    border: 2px solid blue;
+  }
+  .main-footer-div .footer-cols {
+    width: 100%;
+    /* float: left; */
+  }
 }
 
 .share-page-icon-and-title {

@@ -30,6 +30,9 @@ const Header = () => {
         />
       </Helmet>
       <div className="container header-container">
+        <h1>
+          Please see <span style={{ color: "red" }}>explanation</span> below
+        </h1>
         <img className="logo-porsche" src={LogoPorscheTwo} alt="logoPorsche" />
         <div className="icon-button-div">
           <i
