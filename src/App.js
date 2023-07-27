@@ -7,7 +7,7 @@ import MainFindReserve from "./components/MainFindReserve";
 
 import ShoppingTools from "./components/ShoppingTools";
 // import Discover from "./components/Discover";
-import MainFooterLinks from "./components/MainFooterLinks";
+// import MainFooterLinks from "./components/MainFooterLinks";
 import ZCodeTestArea from "./components/ZCodeTestArea";
 import ImageMainTopCarousel from "./Images/AAAOriginalPorscheUkSite/ImageMainTopCarousel.jpg";
 import ImageFindAndReserve from "./Images/AAAOriginalPorscheUkSite/ImageFindAndReserve.jpg";
@@ -52,20 +52,20 @@ function App() {
       </h1>
       <div className="screenshotsDiv">
         <div>
-          <img src={ImageMainTopCarousel} alt="Image of original carousel" />
+          <img src={ImageMainTopCarousel} alt="original carousel" />
         </div>
         <div>
-          <img src={ImageMainPageModels} alt="Image of original carousel" />
+          <img src={ImageMainPageModels} alt="Vehicle models" />
         </div>
         <div>
-          <img src={ImageFindAndReserve} alt="Image of original carousel" />
+          <img src={ImageFindAndReserve} alt="find and reserve" />
         </div>
         <div>
-          <img src={ImageShoppingTools} alt="Image of original carousel" />
+          <img src={ImageShoppingTools} alt="SHopping tools" />
         </div>
 
         <div>
-          <img src={ImageMainFooterLinks} alt="Image of original carousel" />
+          <img src={ImageMainFooterLinks} alt="Footer links" />
         </div>
       </div>
     </div>

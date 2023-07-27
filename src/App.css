@@ -239,14 +239,11 @@ li {
 .main-discover-text:hover {
   color: red;
 }
-.MainFooterLinks * {
-  /* border: 1px solid black; */
-}
+
 .MainFooterLinks {
   border: 1px solid green;
-  margin-left: 10%; /**********************************/
+  margin-left: 10%;
   margin-right: 10%;
-  /* border: 1px solid black; */
 }
 
 .main-footer-top-bottom-flexer {
@@ -282,8 +279,6 @@ li {
 }
 .footer-cols > ul > li > a:hover {
   color: red;
-
-  /* background-color: lightblue; */
 }
 
 @media (max-width: 1220px) {

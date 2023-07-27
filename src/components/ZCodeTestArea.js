@@ -48,8 +48,8 @@
 // export default ZCodeTestArea;
 
 import React from "react";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+// import Row from "react-bootstrap/Row";
+// import Col from "react-bootstrap/Col";
 import "../components/ZCodeTestArea.css";
 const ZCodeTestArea = () => {
   // Define inline styles
